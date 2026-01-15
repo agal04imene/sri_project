@@ -151,7 +151,7 @@ sri_project/
 
 4. **Configure environment variables**
    
-   Replace the API Key in `.env` file with your own Groq API Key :
+   Replace the API Key in the `.env` file with your own Groq API Key :
    ```env
    GROQ_API_KEY=gsk_your_api_key_here
    ```
