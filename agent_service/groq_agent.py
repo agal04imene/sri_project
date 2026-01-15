@@ -12,9 +12,6 @@ load_dotenv()
 # Récupération de la clé GROQ
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 if not GROQ_API_KEY:
-    GROQ_API_KEY = "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"
-    pass
-if not GROQ_API_KEY:
     raise ValueError("La clé GROQ_API_KEY n'est pas configurée dans l'environnement.")
 # --- FIN BLOC DE CHARGEMENT et VÉRIFICATION DE LA CLÉ ---
 
