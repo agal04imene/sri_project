@@ -42,12 +42,12 @@ The user-friendly form collects essential client information to feed into the AI
 ### 2️⃣ Step 2: Example Test Case
 Here's the form filled with a real-world example - a 45-year-old finance sector client with specific data analysis needs.
 
-![Filled Form Example](screenshots/test_view.png)
+![Filled Form Example](assets/test_view.png)
 
 ### 3️⃣ Step 3: Get Intelligent Recommendation
 The AI analyzes the profile and returns a structured recommendation with confidence scoring. The HITL status shows whether it's auto-approved or needs manual review.
 
-![Recommendation Results](screenshots/result_view.png)
+![Recommendation Results](assets/result_view.png)
 
 ---
 
@@ -416,26 +416,6 @@ Stores AI-generated recommendations:
 
 ---
 
-## 🚢 Deployment Considerations
-
-### Before Production:
-- [ ] Switch to PostgreSQL (more robust than SQLite)
-- [ ] Enable DEBUG=False in settings.py
-- [ ] Configure ALLOWED_HOSTS properly
-- [ ] Use environment variables for SECRET_KEY
-- [ ] Set up proper logging and monitoring
-- [ ] Implement rate limiting on API endpoints
-- [ ] Add API authentication (JWT/OAuth)
-- [ ] Set up SSL/TLS certificates
-- [ ] Configure CORS if needed
-
-### Recommended Hosting:
-- AWS EC2 / Heroku / DigitalOcean for Django
-- CloudFlare for CDN and DDoS protection
-- Groq API (serverless, no infrastructure needed)
-
----
-
 ## 📚 Learning Resources
 
 - [LangChain Documentation](https://python.langchain.com/)
@@ -445,30 +425,9 @@ Stores AI-generated recommendations:
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙋 Support & Issues
-
-Found a bug or have a question?
-- **Issues**: Open an issue on GitHub
-- **Discussions**: Use GitHub Discussions for questions
-- **Email**: [Your contact email]
 
 ---
 
@@ -497,6 +456,4 @@ Built with ❤️ using:
 
 ---
 
-**⭐ If this project helped you, please give it a star!**
-
-**Made with 🤖 and ☕**
+**Made with 🤖 and 🥤**
