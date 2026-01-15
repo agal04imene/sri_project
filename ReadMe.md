@@ -64,17 +64,17 @@ The AI analyzes the profile and returns a structured recommendation with confide
 │  (REST Framework)   │
 └──────────┬──────────┘
            │
-┌──────────▼──────────────────┐
+┌──────────▼───────────────────┐
 │  LangChain Agent             │
 │  • Prompt Engineering        │
 │  • Output Parsing (Pydantic) │
 │  • Chain Orchestration (LCEL)│
-└──────────┬──────────────────┘
+└──────────┬───────────────────┘
            │
-┌──────────▼──────────┐
+┌──────────▼───────────┐
 │  Groq LPU (LLaMA 3.3)│
 │  Language Model      │
-└─────────────────────┘
+└──────────────────────┘
 ```
 
 ---
