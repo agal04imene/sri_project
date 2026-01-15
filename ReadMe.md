@@ -151,9 +151,9 @@ sri_project/
 
 4. **Configure environment variables**
    
-   Create a `.env` file in the root directory:
+   Replace the API Key in `.env` file with your own Groq API Key :
    ```env
-   GROQ_API_KEY=gsk_your_actual_api_key_here
+   GROQ_API_KEY=gsk_your_api_key_here
    ```
 
 5. **Run database migrations**
